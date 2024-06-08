@@ -24,7 +24,7 @@ git commit -m "msg"
 git push -u origin main
 ```
 
-## Import Dependencies in terminal 
+## Install Dependencies in terminal 
 
 ```zsh 
 python3 -m pip install jupyterlab 
@@ -34,3 +34,7 @@ python3 -m pip install matplotlib
 python3 -m pip install seaborn
 ```
 
+## Freeze Requirements
+```zsh
+python3 -m pip freeze > requirements.txt
+```
