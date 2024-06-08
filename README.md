@@ -24,11 +24,13 @@ git commit -m "msg"
 git push -u origin main
 ```
 
-## Import Dependencies
+## Import Dependencies in terminal 
 
 ```zsh 
-import matplotlib.pyplot as plt 
-import pandas as pd 
-import seaborn as sns
+python3 -m pip install jupyterlab 
+python3 -m pip install pandas 
+python3 -m pip install pyarrow 
+python3 -m pip install matplotlib 
+python3 -m pip install seaborn
 ```
 
